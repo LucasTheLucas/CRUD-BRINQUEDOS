@@ -2,7 +2,7 @@
 
 Este projeto é uma aplicação CRUD com armazenamento local do navegador.
 
-##Funcionalidades
+## Funcionalidades
 
 -  Cadastro de empréstimos de brinquedos
 -  Visualização de todos os registros
