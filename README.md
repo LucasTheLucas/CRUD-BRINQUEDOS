@@ -25,3 +25,5 @@ Cada registro de empréstimo possui os seguintes campos:
 - O ID de cada empréstimo é único.
 - A edição carrega corretamente os dados do registro selecionado.
 - Os dados permanecem salvos ao recarregar ou fechar a página.
+
+  ## Imagens da aplicação dentro do arquivo TESTES MANUAIS.pdf
