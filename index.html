@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="principal">
+        <h1>Emprestimo de brinquedos</h1>
+        <p>Digite o nome do brinquedo, quem emprestou e quando foi emprestado</p>
+        <div>
+            <input type="text" id="Nome-Brinquedo" placeholder="Brinquedo" required>
+            <input type="text" id="Nome-Pessoa" placeholder="Nome" required>
+            <input type="date" id="Data" required>
+            <button id="Btn-Enviar" class="Btn-Enviar">Adicionar</button>
+        </div>
+    </div>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Brinquedo</th>
+                    <th>Pessoa</th>
+                    <th>Data</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="Tabela-Corpo"></tbody>
+        </table>
+    </div>
+
+    <div id="Atualizar-Form" class="Atualizar-Form">
+        <div>
+            <input type="text" id="Brinquedo-Update">
+            <input type="text" id="Nome-Update">
+            <input type="date" id="Date-Update">
+        </div>
+        <div>
+            <button id="Editar-Update" class="Editar-Update">Atualizar</button>
+            <button id="Cancelar-Update" class="Cancelar-Update">Cancelar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
